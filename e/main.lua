@@ -1,8 +1,8 @@
 local function import(s)
-    return loadstring(game:HttpGet( ("https://raw.githubusercontent.com/modzyyreal/fnb/%s.lua"):format(s) ))()
+    return loadstring(game:HttpGet( ("https://raw.githubusercontent.com/modzyyreal/fnb/main/e/%s.lua"):format(s) ))()
 end
 
-import("fnb/hooks")
+import("hooks")
 local Connections = import("Connections")
 local Util = import("util")
 local UwUware = import("uwuware")
